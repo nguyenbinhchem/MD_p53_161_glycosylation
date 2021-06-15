@@ -1,0 +1,19 @@
+parm A24-pep-TCR-sol.prmtop
+trajin prod-A24-pep-TCR.nc 0 10000 10
+trajin prod1-A24-pep-TCR.nc 0 10000 10
+trajin prod2-A24-pep-TCR.nc 0 10000 10
+trajin prod3-A24-pep-TCR.nc 0 10000 10
+trajin prod4-A24-pep-TCR.nc 0 10000 10
+trajin prod5-A24-pep-TCR.nc 0 10000 10
+trajin prod6-A24-pep-TCR.nc 0 10000 10
+trajin prod7-A24-pep-TCR.nc 0 10000 10
+trajin prod8-A24-pep-TCR.nc 0 10000 10
+trajin prod9-A24-pep-TCR.nc 0 10000 10
+trajin prod10-A24-pep-TCR.nc 0 10000 10
+autoimage
+reference A24-pep-TCR-sol.inpcrd
+rms reference :1-831
+strip :WAT,Na+,Cl- outprefix strip
+#outtraj prod-A24-pep-TCR-no-wat_outtraj.nc nobox
+outtraj prod-A24-pep-TCR-no-wat_outtraj.mdcrd nobox
+

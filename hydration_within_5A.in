@@ -1,0 +1,4 @@
+trajin water_within_5_of_380_to_387.mdcrd
+grid wat_w.grid 115 0.25 115 0.25 115 0.25 :WAT
+strip :WAT
+

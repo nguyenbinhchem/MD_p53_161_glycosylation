@@ -1,0 +1,4 @@
+parm A24-p53-242-251-sol.prmtop
+trajin prod-A24-p53-242-251-combine_outtraj.mdcrd.gz
+grid prot_wat.grid 60 0.5 79 0.5 60 0.5 gridcenter 65.2 35.8 30.0 :WAT
+average prot_avg_w.pdb pdb :1-388
