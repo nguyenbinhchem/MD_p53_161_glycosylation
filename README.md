@@ -22,10 +22,17 @@ The MD was run with the following command
 /cluster/apps/x86_64/packages/amber16/bin/pmemd.cuda -O -i prod.in -o prod4.out -p A24-p53-sol.prmtop -c A24-p53-prod3.rst -r A24-p53-prod4.rst -x prod4-A24-p53.nc -inf A24-p53-prod4.mdinfo
 
 The analysis was done with the following command
+
 /cluster/apps/x86_64/packages/amber14/amber14/bin/cpptraj -i rmsd.ptraj 
+
 /cluster/apps/x86_64/packages/amber14/amber14/bin/cpptraj -i rmsf.ptraj 
+
 /cluster/apps/x86_64/packages/amber14/amber14/bin/cpptraj -i remove_wat_mdcrd.in
+
 /cluster/apps/x86_64/packages/amber14/amber14/bin/cpptraj -i dist.ptraj 
+
 /cluster/apps/x86_64/packages/amber14/amber14/bin/cpptraj -i combine_traj.in
+
 /cluster/apps/x86_64/packages/amber14/amber14/bin/cpptraj -i hydration.in 
+
 /cluster/apps/x86_64/packages/amber14/amber14/bin/cpptraj -i hbond.ptraj 
