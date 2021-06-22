@@ -1,13 +1,8 @@
-parm A24-pep-TCR.prmtop
-trajin prod-A24-pep-TCR-no-wat_outtraj.nc 801 1001 1
-trajin ../run2/prod-A24-pep-TCR-no-wat_outtraj.nc 801 1001 1
-trajin ../run3/prod-A24-pep-TCR-no-wat_outtraj.nc 801 1001 1
-
-hbond donormask :1-378 acceptormask :388-831 dist 3.5 angle 130.0 out hb_A24_vs_TCR_1.dat
-hbond donormask :388-831 acceptormask :1-378 dist 3.5 angle 130.0 out hb_A24_vs_TCR_2.dat
-hbond donormask :379-387 acceptormask :388-831 dist 3.5 angle 130.0 out hb_pep_vs_TCR_1.dat
-hbond donormask :388-831 acceptormask :379-387 dist 3.5 angle 130.0 out hb_pep_vs_TCR_2.dat
+parm A24-p53.prmtop
+trajin prod-A24-p53-no-wat_outtraj.nc 801 1001 1
+trajin ../run2/prod-A24-p53-no-wat_outtraj.nc 801 1001 1
+trajin ../run3/prod-A24-p53-no-wat_outtraj.nc 801 1001 1
 hbond pMHC :1-181,379-387 out pMHC.avg.dat dist 3.5 avgout hb_pMHC.dat
 hbond pTCR :388-831,379-387 out pTCR.avg.dat dist 3.5 avgout hb_pTCR.dat
-hbond MHC_TCR :1-181,388-831 out MHC_TCR.avg.dat dist 3.5 avgout hb_MHC_TCR.dat
+
 
