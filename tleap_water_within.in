@@ -1,8 +1,0 @@
-source /cluster/apps/x86_64/packages/amber14/amber14/dat/leap/cmd/leaprc.ff14SB
-source /cluster/apps/x86_64/packages/amber14/amber14/dat/leap/cmd/leaprc.gaff
-source /cluster/apps/x86_64/packages/amber14/amber14/dat/leap/cmd/leaprc.GLYCAM_06j-1
-loadamberparams /cluster/apps/x86_64/packages/amber14/amber14/dat/leap/parm/frcmod.ionsjc_tip3p
-loadamberparams /cluster/apps/x86_64/packages/amber14/amber14/dat/leap/parm/frcmod.ionslm_1264_tip3p
-prot = loadPdb water_within_5_of_380_to_387.pdb
-saveAmberParm prot water_within_5_of_380_to_387.prmtop water_within_5_of_380_to_387.inpcrd
-quit
