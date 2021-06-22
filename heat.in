@@ -1,4 +1,4 @@
-heat A24-p53-242-251-heat
+heat A24-p53-heat
  &cntrl
   imin=0,irest=0,ntx=1,
   nstlim=25000,dt=0.002,
