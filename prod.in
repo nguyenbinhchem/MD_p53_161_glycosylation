@@ -1,4 +1,4 @@
-prod A24-p53-242-251-100
+prod A24-p53
  &cntrl
   imin=0,irest=1,ntx=5,
   nstlim=50000000,dt=0.002,
