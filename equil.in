@@ -1,4 +1,4 @@
-heat A24-p53-242-251-equil 
+heat A24-p53-equil 
  &cntrl
   imin=0,irest=1,ntx=5,
   nstlim=1000000,dt=0.002,
