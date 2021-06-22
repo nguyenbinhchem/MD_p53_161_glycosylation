@@ -1,0 +1,8 @@
+parm A24-pep-TCR.prmtop
+trajin prod-A24-pep-TCR-no-wat_outtraj.nc
+reference A24-pep-TCR.inpcrd
+rms reference :51-86,139-180@CA :51-86,139-180@CA out RMSD_CA_A24_binding.dat mass
+rms reference :1-831@CA :1-831@CA out RMSD_CA_A24-pep-TCR_all_res.dat mass
+rms reference :1-378@CA :1-378@CA out RMSD_CA_A24_all_res.dat mass
+rms reference :379-387@CA :379-387@CA out RMSD_CA_pep_all_res.dat mass
+rms reference :388-831@CA :388-831@CA out RMSD_CA_TCR_all_res.dat mass

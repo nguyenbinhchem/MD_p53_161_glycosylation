@@ -1,0 +1,12 @@
+parm A24-pep-TCR.prmtop
+trajin prod-A24-pep-TCR-no-wat_outtraj.nc
+reference A24-pep-TCR.inpcrd
+rms reference :1-831@CA
+rms reference :1-378@CA
+atomicfluct out RMSF_CA_A24.dat :1-378@CA byres
+rms reference :379-387@CA
+atomicfluct out RMSF_CA_pep.dat :379-387@CA byres
+rms reference :388-831@CA
+atomicfluct out RMSF_CA_TCR.dat :388-831@CA byres
+
+

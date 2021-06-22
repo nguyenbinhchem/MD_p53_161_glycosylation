@@ -1,0 +1,9 @@
+parm A24-pep-TCR.prmtop
+trajin prod-A24-pep-TCR-no-wat_outtraj.nc
+distance out dist_CA_CRD1a_bA24.dat d1 :412-419@CA :154-175@CA
+distance out dist_CA_CRD2a_bA24.dat d2 :438-440@CA :154-175@CA
+distance out dist_CA_CRD3a_bA24.dat d3 :479-486@CA :154-175@CA
+
+distance out dist_CA_CRD1b_aA24.dat d4 :615-619@CA :58-85@CA
+distance out dist_CA_CRD2b_aA24.dat d5 :639-645@CA :58-85@CA
+distance out dist_CA_CRD3b_aA24.dat d6 :684-688@CA :58-85@CA
