@@ -1,4 +1,4 @@
 parm A24-p53.prmtop
 trajin prod-A24-p53-no-wat_outtraj.nc
-distance out dist_CA_pep_bA24.dat d1 :381-388@CA :154-175@CA
-distance out dist_CA_pep_aA24.dat d4 :381-388@CA :58-85@CA
+distance out dist_CA_pep_bA24.dat d1 :379-388@CA :154-175@CA
+distance out dist_CA_pep_aA24.dat d4 :379-388@CA :58-85@CA
