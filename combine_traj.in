@@ -1,10 +1,10 @@
-parm A24-p53-242-251-sol.prmtop
-trajin prod-A24-p53-242-251.mdcrd.gz 0 10000 10
-trajin prod1-A24-p53-242-251.mdcrd.gz 0 10000 10
-trajin prod2-A24-p53-242-251.mdcrd.gz 0 10000 10
-trajin prod3-A24-p53-242-251.mdcrd.gz 0 10000 10
-trajin prod4-A24-p53-242-251.mdcrd.gz 0 10000 10
+parm A24-p53-sol.prmtop
+trajin prod-A24-p53.mdcrd.gz 0 10000 10
+trajin prod1-A24-p53.mdcrd.gz 0 10000 10
+trajin prod2-A24-p53.mdcrd.gz 0 10000 10
+trajin prod3-A24-p53.mdcrd.gz 0 10000 10
+trajin prod4-A24-p53.mdcrd.gz 0 10000 10
 autoimage 
-reference A24-p53-242-251-sol.pdb
+reference A24-p53-sol.pdb
 rms reference :1-388
-outtraj prod-A24-p53-242-251-combine_outtraj.mdcrd nobox
+outtraj prod-A24-p53-combine_outtraj.mdcrd nobox
